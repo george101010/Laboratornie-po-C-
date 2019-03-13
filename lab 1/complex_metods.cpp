@@ -24,5 +24,5 @@ void arifm(string tk, compnum *a, compnum *b){
                  cout<<(a.re*b.re+a.im*b.im)/(b.im*b.im+b.re*b.re)<<"+"<<(b.re*a.im-a.re*b.im)/(b.im*b.im+b.re*b.re)<<"i";}
                 break;}
      default:{
-              cout<<"syntax error aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa blyad";
+              cout<<"syntax error ";
                 break;} }
