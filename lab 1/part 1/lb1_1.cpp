@@ -15,7 +15,7 @@ int main() {
      cout<<"Enter sign of operation: ";
      cin>>s;
      if (s=="abs"){
-                   arifm(&A);
+                   cout<<arifm(&A);
                    }
      else {
           cout<<"Enter complex number B real part: ";
