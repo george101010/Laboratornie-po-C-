@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <queue>
 #include <string>
 using namespace std;
@@ -6,14 +6,14 @@ using namespace std;
 int main(){
      queue<int> carsforwash;
      cout<<"Enter number of cars: " ;
-     int n;//çàäàíèå ÷èñëà ìàøèí â î÷åðåäè
+     int n;//Ð·Ð°Ð´Ð°Ð½Ð¸Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð¼Ð°ÑˆÐ¸Ð½ Ð² Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸
      cin>>n;
      for (int i=0;i<n;i++){
-          carsforwash.push(i+1 );//óñòàíîâêà ìàøèí â î÷åðåäü
-     }//ìàøèíû ìîþò â ñëåäóþùåì ïîðÿäêå
+          carsforwash.push(i+1 );//ÑƒÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° Ð¼Ð°ÑˆÐ¸Ð½ Ð² Ð¾Ñ‡ÐµÑ€ÐµÐ´ÑŒ
+     }//Ð¼Ð°ÑˆÐ¸Ð½Ñ‹ Ð¼Ð¾ÑŽÑ‚ Ð² ÑÐ»ÐµÐ´ÑƒÑŽÑ‰ÐµÐ¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ
      cout<<"Cars were washed in next order:"<<endl;
       for (int i=0;i<n;i++){
-//ïîìûâêà ìàøèí è óäàëåíèå èõ èç î÷åðåäè
+//Ð¿Ð¾Ð¼Ñ‹Ð²ÐºÐ° Ð¼Ð°ÑˆÐ¸Ð½ Ð¸ ÑƒÐ´Ð°Ð»ÐµÐ½Ð¸Ðµ Ð¸Ñ… Ð¸Ð· Ð¾Ñ‡ÐµÑ€ÐµÐ´Ð¸
           cout<<"Car N"<<carsforwash.front()<<endl;
           carsforwash.pop();
     }
