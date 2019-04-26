@@ -15,7 +15,7 @@ class complex {//класс complex
     float getim(){
         return im;}
     };
-using namespace std;
+
 int main(){
     complex t;
     float r,m;
